@@ -27,7 +27,9 @@ public class Logger {
 	}
 
 	public void mostrarLogs() {
-		for(::)
+		for (String mensaje : mensajes) {
+			System.out.println(mensaje);
+		}
 	}
 
 }

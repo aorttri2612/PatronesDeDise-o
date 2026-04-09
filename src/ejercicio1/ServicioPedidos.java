@@ -2,6 +2,9 @@ package ejercicio1;
 
 public class ServicioPedidos {
 
-	Logger logger = Logger.getInstancia();
-
+	public void ejecutar() {
+		Logger logger = Logger.getInstancia();
+		logger.registrar("[INFO] Pedido creado");
+		logger.registrar("[INFO] Pedido enviado");
+	}
 }

@@ -2,5 +2,15 @@ package ejercicio1;
 
 public class Main {
 
-	Logger logger = Logger.getInstancia();
+	public static void main(String[] args) {
+
+		ServicioUsuarios servicioUsuarios = new ServicioUsuarios();
+		ServicioPedidos servicioPedidos = new ServicioPedidos();
+
+		servicioUsuarios.prueba();
+		servicioPedidos.ejecutar();
+
+		Logger logger = Logger.getInstancia();
+		logger.mostrarLogs();
+	}
 }
